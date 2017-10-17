@@ -1,116 +1,116 @@
 html,
 body{
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body{
-  font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
     line-height: 1.85rem;
 }
 
 .part-1{
-  background-image: url(images/bg-1.jpg);
-  /*background-size: contain;*/
-  background-repeat: no-repeat;
+	background-image: url(images/bg-1.jpg);
+	/*background-size: contain;*/
+	background-repeat: no-repeat;
     background-position: bottom;
     background-color: #f5f4f9;
-  height: 997px;
-  display: block;
+	height: 1113px;
+	display: block;
 }
 
 
 .part-1 img{
-  max-width: 41%;
-  margin: 7.56em 0 9em;
+	max-width: 100%;
+	margin: 11.56em 0;
 }
 
 
 @media (max-width: 576px){
-  .part-1{
-      height: 1067px;
-      background-size: contain;
-      background-color: #f5f4f9;
-  }
+	.part-1{
+	    height: 1067px;
+	    background-size: contain;
+	    background-color: #f5f4f9;
+	}
 
-  .part-1 img{
-    margin: 11.56em 0 6em;
-  }
+	.part-1 img{
+		margin: 11.56em 0 6em;
+	}
 }
 
 
 .part-2{
-  background-image: url(images/bg-2.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 1060px;
-  display: block;
-  color: #fff;
+	background-image: url(images/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 1060px;
+	display: block;
+	color: #fff;
 }
 
 .part-2 strong{
-  font-size: 24px;
+	font-size: 24px;
 }
 
 
 .bl-align-middle{
-  margin: 24em 0 0;
+	margin: 24em 0 0;
 }
 
 
 
 
 @media (max-width: 576px){
-  .bl-align-middle {
-      margin-top: 7em;
-      margin-left: auto;
-  }
+	.bl-align-middle {
+	    margin-top: 7em;
+	    margin-left: auto;
+	}
 
-  .part-2{
-      height: 575px;
-      background-size: contain;
-      background-color: #1d181e;
-  }
+	.part-2{
+	    height: 575px;
+	    background-size: contain;
+	    background-color: #1d181e;
+	}
 
 }
 
 .part-3{
-  background-color: #006599;
-  color: #fff;
+	background-color: #006599;
+	color: #fff;
 }
 
 .part-4{
-  background-color: #f2f5fa;
-  color: #006599;
+	background-color: #f2f5fa;
+	color: #006599;
 }
 
 .part-4 img{
-  max-width: 100%;
-  margin-bottom: 3em;
+	max-width: 100%;
+	margin-bottom: 3em;
 }
 
 .part-5{
-  background-color: #006599;
-  color: #fff;
+	background-color: #006599;
+	color: #fff;
 }
 
 .part-6{
-  color: #006599;
-  background-image: url(images/bg-3.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: #f2f5fa;
-  width: 100%;
-  height: 100%;
-  min-height: 66.9em;
+	color: #006599;
+	background-image: url(images/bg-3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color: #f2f5fa;
+	width: 100%;
+	height: 100%;
+	min-height: 66.9em;
 }
 
 .nav{
-  flex-direction: row;
-  justify-content: space-around;
-  align-content: flex-end;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: flex-end;
 }
 
 
@@ -119,10 +119,6 @@ body{
   max-width: 960px;
   margin: auto;
   display: block;
-}
-
-.nav ul{
-  padding: 0;
 }
 
 .nav ul li {
@@ -138,7 +134,6 @@ body{
 
 .nav ul li a:hover{
   text-decoration: underline;
-  color: #006599;
 }
 
 /* mobile bar view */
@@ -152,25 +147,25 @@ body{
 
 
 hr.separator-line{
-  background: url(images/sep.png);
-  height: 1px;
-  width: 338px;
-  margin-bottom: 2em;
+	background: url(images/sep.png);
+	height: 1px;
+	width: 338px;
+	margin-bottom: 2em;
 }
 
 
 .navbar-nav li a,
 .infos-header a{
-  color: #1d1a1f;
-  margin: 0 1em;
+	color: #1d1a1f;
+	margin: 0 1em;
 }
 
 .navbar-nav li a:hover{
-  color: #006699;
+	color: #006699;
 }
 
 .blue-separator{
-  width: 123px;
+	width: 123px;
     max-width: 100%;
     height: 1px;
     background: url(images/blue-sep.png);
@@ -179,10 +174,10 @@ hr.separator-line{
 }
 
 .infos-header{
-  font-size: 1.1rem;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+	font-size: 1.1rem;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
 }
 
 
@@ -190,9 +185,9 @@ hr.separator-line{
 
 @media (max-width: 800px) {
 
-  .nav ul{
-    display: block;
-  }
+	.nav ul{
+		display: block;
+	}
   
   .mobile-nav {
     display: block;
@@ -298,63 +293,63 @@ hr.separator-line{
 }
 
 .navbar-nav{
-  flex-direction: row;
-  justify-content: space-around;
-  text-transform: uppercase;
-  align-content: flex-end;
+	flex-direction: row;
+	justify-content: space-around;
+	text-transform: uppercase;
+	align-content: flex-end;
 }
 
 @media (max-width: 800px) {
-  .infos-header {
-    flex-direction: column;
-    text-align: center;
-   }
+	.infos-header {
+	 	flex-direction: column;
+	 	text-align: center;
+	 }
 
-   .vert-sep{
-    display: none;
-   }
+	 .vert-sep{
+	 	display: none;
+	 }
 
-   .part-1{
-      height: 1255px;
-      background-size: contain;
-   }
+	 .part-1{
+ 	    height: 1255px;
+ 	    background-size: contain;
+	 }
 }
 
 .fb-icon{
-  background: url(images/fb-icon.png);
-  width: 24px;
-  height: 24px;
-  max-width: 100%;
-  display: block;
+	background: url(images/fb-icon.png);
+	width: 24px;
+	height: 24px;
+	max-width: 100%;
+	display: block;
 }
 
 .plus-icon{
-  width: 30px;
-  height: 29px;
-  display: block;
-  margin: 2em 0;
+	width: 30px;
+	height: 29px;
+	display: block;
+	margin: 2em 0;
 }
 
 .plus-icon-blue{
-  background: url(images/plus-icon-blue.png);
+	background: url(images/plus-icon-blue.png);
 
 }
 
 .plus-icon-white{
-  background: url(images/plus-icon.png);
+	background: url(images/plus-icon.png);
 }
 
 .margin-container{
-  margin: 4em 0;
+	margin: 4em 0;
 }
 
 .margin-container h3{
-  margin-bottom: 3em;
-  font-weight: bold;
+	margin-bottom: 3em;
+	font-weight: bold;
 }
 
 span.text-reference{
-  font-style: italic;
+	font-style: italic;
 }
 
 
@@ -582,33 +577,33 @@ span.text-reference{
 }
 
 .mapa{
-  border: 10px solid #006599;
-  margin-bottom: 3em;
+	border: 10px solid #006599;
+	margin-bottom: 3em;
 }
 
 .fb-icon{
-  display: inline-block;
+	display: inline-block;
     margin: 0 0.5em 0 0;
     vertical-align: sub;
 }
 
 .part-6 a{
-  color: #006599;
-  line-height: 2em;
+	color: #006599;
+	line-height: 2em;
 }
 
 .fb-viavet{
-  font-style: italic;
+	font-style: italic;
 }
 
 footer{
-  background-color: #006599;
-  color: #fff;
-  text-align: right;
-  padding: 1.5em 4em;
+	background-color: #006599;
+	color: #fff;
+	text-align: right;
+	padding: 1.5em 4em;
 }
 
 .row{
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
 }
