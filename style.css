@@ -16,14 +16,14 @@ body{
   background-repeat: no-repeat;
     background-position: bottom;
     background-color: #f5f4f9;
-  height: 1113px;
+  height: 997px;
   display: block;
 }
 
 
 .part-1 img{
-  max-width: 100%;
-  margin: 11.56em 0;
+  max-width: 41%;
+  margin: 9.56em 0 9em;
 }
 
 
