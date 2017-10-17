@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="Clinica veterinária especializada em homeopatia. Internação, cirurgias e atendimento a animais domésticos e silvestres." name="description">
+
+    <title>Viavet Clinica Veterinária</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+
+    	$(document).ready(function() {
+  
+		  $( "#responsive-menu-icon" ).click(function() {
+		  
+		  
+		var nav = $(".nav-wrapper");
+		var navHeight = nav.height();
+		    
+		    if (navHeight < 150) {
+
+		TweenMax.to(nav, 1, {"height":350});
+		    } else {
+		      TweenMax.to(nav, 1, {"height":90});
+		    };
+		    
+		  });
+		  		  
+		  // menu icon jquery
+		  
+		  
+		  // when whole menu div is clicked
+		  
+		  
+		  $("#responsive-menu-icon").click( function() {
+		    // if the menu height is not full, transform icon
+		    var nav = $(".nav-wrapper");
+		var navHeight = nav.height();
+		    
+		    if (navHeight < 150) {
+		      $("#a").addClass("rotate-down");
+		    $("#responsive-menu-icon").addClass("menu-up");
+		     $("#b").addClass("disappear");
+		   
+		     $("#c").addClass("rotate-up");
+		      
+		      
+		    } else {
+		      
+		      // if it's not less than full height, remove animation classes
+		      $("#a").removeClass("rotate-down");
+		    $("#responsive-menu-icon").removeClass("menu-up");
+		     $("#b").removeClass("disappear");
+		   
+		     $("#c").removeClass("rotate-up");
+
+		    }; 
+		    
+		  });
+		  
+		});
+
+    </script>
+  </head>
+  <body>
+
+  <section class="part-1">
+	  	<div class="row">
+	  		<div class="col-md-10 ml-md-auto col-sm-11 ml-sm-auto">
+	  			<img src="images/logo-viavet-veterinaria.png" alt="Viavet Veterinária">
+	  		</div>
+	  	</div>
+
+	  	<div class="row justify-content-center">
+  			 <div id="nav" class="nav-wrapper">
+			  <div class="mobile-nav">
+			    <div class="responsive-menu-icon" id="responsive-menu-icon">
+			      <div id="a" class="responsive-menu-icon-line"></div>
+			      <div id="b" class="responsive-menu-icon-line"></div>
+			      <div id="c" class="responsive-menu-icon-line"></div>
+			      <div class="menu-title">Menu</div>
+			     </div>
+			  </div>
+			   
+			<div class="nav">
+			  <ul>
+			    <li><a href="#viavet" class="nav-link" title="A Viavet">A Viavet</a></li>
+			    <li><a href="#homeopatia" class="nav-link" title="Homeopatia">Homeopatia</a></li> 
+			    <li><a href="#doutora" class="nav-link" title="Doutora Carla">Dra. Carla</a></li> 
+			    <li><a href="#servicos" class="nav-link" title="Serviços">Serviços</a></li> 
+			    <li><a href="#contato" class="nav-link" title="Contato">Contato</a></li> 
+			  </ul>
+			  </div> 
+			</div>
+	  	</div>
+
+	  	<div class="row justify-content-center">
+	  		<div class="col-md-7">
+	  			<hr class="separator-line">
+	  		</div>
+	  	</div>
+
+	  	<div class="row justify-content-center">
+	  		<div class="infos-header">
+	  			<a href="tel:1137820474"><span>Tel: (11) 3782-0474</span> </a> 
+	  			<span class="vert-sep">|</span>
+	  			<a href="mailto:carlaviavet@gmail.com"><span>email: carlaviavet@gmail.com</span></a>  
+	  			<span class="vert-sep">|</span>
+	  			<a href="https://www.facebook.com/viavetveterinaria/?hc_ref=ARRZj4aqvqYsBiLlwyx4WqYyepz3p9Ji6sbAjAialtSxYloTcKChRRH0u24BanB4Em4&fref=nf" target="_blank"><span class="fb-icon"></span>@viavetveterinaria</a>
+	  		</div>
+	  	</div>
+  </section>
+
+  <section class="part-2">
+  	<a name="viavet"> 
+	  	<div class="container">
+		  	<div class="row align-self-end">
+		  		<div class="col-xl-6 col-lg-6 col-md-7 col-sm-6 ml-md-auto ml-sm-auto bl-align-middle">
+		  			<p>A <strong>Clinica Veterinária Viavet</strong> utiliza o método homeopático de tratamento. A homeopatia utiliza como premissa a Lei dos Semelhantes, ou seja, o que causou o mal tem o poder de curá-lo.</br>
+					O foco do tratamento homeopático está no reequilíbrio da energia vital.</p>
+		  		</div>
+		  	</div>
+		</div>
+	</a>
+   </section>
+
+   <section class="part-3">
+   	<a name="homeopatia"> 
+	  	<div class="container">
+		  	<div class="row">
+		  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 margin-container">
+		  			<div class="row justify-content-center">
+		  				<span class="plus-icon plus-icon-white"></span>
+		  			</div>
+		  			<div class="row justify-content-center">
+		  				<h3>O que é homeopatia?</h3>
+		  			</div>
+
+		  			<p> Você conhece ou já ouviu falar em Homeopatia?</br>
+					A Homeopatia é uma Medicina que existe há mais de 200 anos e é reconhecida como especialidade pelo Conselho Federal de Medicina e na veterinária desde 1996. Ela não serve somente para tratamentos preventivos como todos pensam, mas também para tratamentos de quaisquer doenças, sejam elas agudas ou crônicas. Portanto, é uma medicina que pode ser utilizada de forma autônoma, podendo ser associada à medicina convencional. </p>
+
+					<p>Na Homeopatia há dois princípios básicos que os diferenciam da medicina convencional: a globalidade e a individualização. Ou seja, ela considera o paciente como um todo, não o separando em simples órgãos ou sistemas para tratar. Além disso, os medicamentos são escolhidos de forma específica para cada indivíduo/animal, porque a individualidade é uma questão que deve ser sempre respeitada e considerada. Ao contrário do que muitos pensam, com o tratamento adequado e acompanhamento entre tutores e o Médico Veterinário, as respostas aos tratamentos homeopáticos são rápidas e eficientes.</p>
+
+					<p><span class="text-reference">EXPOSIÇÃO DA DOUTRINA MÉDICA E HOMEOPÁTICA. GRUPO DE ESTUDOS HOMEOPÁTICOS DE SÃO PAULO "BENOIT MIRE"</span></p>
+		  		</div>
+		  	</div>
+		</div>
+	</a>
+   </section>
+   <section class="part-4">
+   	<a name="doutora"> 
+	  	<div class="container">
+		  	<div class="row">
+		  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 margin-container">
+		  			<div class="row justify-content-center">
+		  				<span class="plus-icon plus-icon-blue"></span>
+		  			</div>
+		  			<div class="row justify-content-center">
+		  				<h3>Dra. Carla Cavalca</h3>
+		  			</div>
+		  			<div class="row">
+				  		<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+				  			<img src="images/dra-carla-cavalca.png" alt="Dra. Carla Cavalca">
+				  		</div>
+				  		<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					  		<p>Sou formada há 25 anos em medicina veterinária. A prática com o método tradicional alopático me deu bastante experiência e vivência nas mais diversas áreas, inclusive cirúrgica, porem havia uma insatisfação enorme que a todo momento me incomodava e me fazia buscar algo mais, então fiz curso de fitoterapia e vários outros que não me satisfaziam como métodos curativos. Foi então que em 2009 conheci o Prof. Nilson Benites, livre docente da USP, que instituiu o ambulatório de atendimento homeopático no Hovet. E foi com ele que verdadeiramente aprendi o que é a homeopatia como verdadeira arte de curar, conheci seu precursor Samuel Hahnemann e aprendi muito, muito mais dentro da ótica vitalista com o estudo de nosso grande patologista Dr. Edgar Maffei.</p> 
+
+							<p>Então, a partir de 2009, transformei minha clinica para a prática da homeopatia. Aboli farmácia comercial, banho e tosa e todos os tratamentos alopáticos. Realizo cirurgias sim, mas seu pós operatório é todo com medicação homeopática o que tráz uma grande vantagem. E todos os tratamentos tem sido feitos apenas com homeopatia e posso dizer que as respostas são incríveis, agora me encontro satisfeita, não parei de aprender, mas sei o caminho certo a percorrer.</p>
+				  		</div>
+				  	</div>
+		  			
+		  		</div>
+		  	</div>
+		</div>
+	</a>
+   </section>
+   <section class="part-5">
+   	<a name="servicos"> 
+	  	<div class="container">
+		  	<div class="row">
+		  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 margin-container">
+		  			<div class="row justify-content-center">
+		  				<span class="plus-icon plus-icon-white"></span>
+		  			</div>
+		  			<div class="row justify-content-center">
+		  				<h3>Serviços</h3>
+		  			</div>
+		  			<div class="row">
+				  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+					  		<p class="text-center">Clinica veterinária Especializada em homeopatia</br>
+							Cirurgias</br>
+							Internação e hospedagem</br>
+							Atendimento para animais domésticos e silvestres</br>
+							Atendimento com hora marcada</p>
+				  		</div>
+				  	</div>
+				  	<div class="row">
+				  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+
+							<div class="m-p-g">
+								<div class="m-p-g__thumbs" data-google-image-layout>
+									<div class="row">
+										<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+											<img src="images/7-new.jpg" data-full="images/7-new.jpg" class="m-p-g__thumbs-img" />
+											<img src="images/1-new.jpg" data-full="images/1-new.jpg" class="m-p-g__thumbs-img" />
+										</div>
+										<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+											<img src="images/5-new.jpg" data-full="images/5-new.jpg" class="m-p-g__thumbs-img" />
+											<img src="images/3-new.jpg" data-full="images/3-new.jpg" class="m-p-g__thumbs-img" />
+										</div>
+										<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+											<img src="images/6-new.jpg" data-full="images/6-new.jpg" class="m-p-g__thumbs-img" />
+											<img src="images/2-new.jpg" data-full="images/2-new.jpg" class="m-p-g__thumbs-img" />
+										</div>
+									</div>
+								</div>
+
+								<div class="m-p-g__fullscreen"></div>
+							</div>
+
+							<script>
+								var elem = document.querySelector('.m-p-g');
+
+								document.addEventListener('DOMContentLoaded', function() {
+									var gallery = new MaterialPhotoGallery(elem);
+								});
+							</script>
+
+					  </div>
+				  	</div>
+		  			
+		  		</div>
+		  	</div>
+		</div>
+	</a>
+   </section>
+
+   <section class="part-6">
+	  	<div class="container">
+	  		<a name="contato"></a>
+		  	<div class="row">
+		  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 margin-container">
+		  			<div class="row justify-content-center">
+		  				<span class="plus-icon plus-icon-blue"></span>
+		  			</div>
+		  			<div class="row justify-content-center">
+		  				<h3>Contato</h3>
+		  			</div>
+		  			<div class="row">
+				  		<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+				  			<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14624.392173309965!2d-46.7935217!3d-23.6008165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf64772f19809154e!2sClinica+Veterin%C3%A1ria+Viavet!5e0!3m2!1spt-BR!2sbr!4v1505926183741" width="100%" height="450" frameborder="0" allowfullscreen></iframe>
+				  		</div>
+				  		<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+					  		<p>
+					  			<a href="tel:1137820474"><strong>Tel:</strong> (11) 3782-0474</a></br>
+								<a href="mailto:carlaviavet@gmail.com"><strong>email:</strong> carlaviavet@gmail.com</a></br>
+								<a class="fb-viavet" href="https://www.facebook.com/viavetveterinaria/?hc_ref=ARRZj4aqvqYsBiLlwyx4WqYyepz3p9Ji6sbAjAialtSxYloTcKChRRH0u24BanB4Em4&fref=nf" target="_blank"><span class="fb-icon"></span>@viavetveterinaria</a>
+							</p>
+							<span class="blue-separator"></span>
+							<p>Segunda e sexta das 14h às 18h</br>
+							Terça, quarta e quinta das 9h às 18h</br>
+							Sábado das 9h às 12h</p>
+				  		</div>
+				  	</div>
+		  			
+		  		</div>
+		  	</div>
+		</div>
+   </section>
+ 
+	  	<!-- <nav class="navbar navbar-expand-md">
+	      <a class="navbar-brand" href="index.html" title="Clinica Veterinária Viavet">
+	      	<img src="images/logo-viavet.png" alt="Clinica Veterinária Viavet">
+	      </a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+	      <div class="collapse navbar-collapse" id="navbarCollapse">
+	        <ul class="navbar-nav mr-auto">
+	          <li class="nav-item">
+	            <a class="nav-link" href="#viavet">A Viavet</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#servicos">Serviços</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#contato">Contato</a>
+	          </li>
+	        </ul>
+	       
+	      </div>
+	    </nav> -->
+
+	    	
+  		
+    <footer>
+    	<small>Copyright© 2017 Todos os direitos reservados.<br>
+		Clínica Veterinária Viavet  |  R. Padre João da Cunha, 358 - Jardim Joao XXIII, São Paulo - SP, CEP 05569-050 </small>
+    </footer>
+
+
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 500);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
